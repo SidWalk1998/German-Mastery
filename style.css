@@ -1,6 +1,4 @@
 @import "compass/css3";
-
-@import "compass/css3";
 @import "compass/reset";
 *{
   @include box-sizing(border-box);
@@ -10,7 +8,7 @@ body{
   background-color: #ecf0f1;
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
-  padding-top: 330px;
+  padding-top: 300px;
   @include transition(padding-top .5s ease);
 }
 header{
@@ -18,9 +16,10 @@ header{
   height: 300px;
   background-color: #3498db;
   text-align: center;
-  position: relative;
   position: fixed;
   top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure the header stays on top of other content */
   overflow: hidden;
   @include transition(all .5s ease);
   h1{
@@ -34,8 +33,7 @@ header{
   nav{
     position: absolute;
     bottom: 0;
-    height: 60px;
-    line-height: 60px;
+    left: 0;
     width: 100%;
     background-color: rgba(0,0,0,.1);
     a{
@@ -74,11 +72,10 @@ section{
   @include border-radius(4px);
   @include box-shadow(0 1px 0 rgba(0,0,0,.2));
 }
-
 /* Sticky Header Style */ 
 /* ---------------------------------------- */ 
 body.sticky-header{
-  padding-top: 100px;
+  padding-top: 60px;
   header{
     height: 60px;
     background-color: rgba(52,152,219,.9);
