@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="something about this page....">
+    <meta name="robots" content="index,follow">
+    <title>Week 7 Assignment</title>
+
+    <style>
+        .body {
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            width: 80%;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        body {
+            background-color: rgb(214, 231, 236);
+            margin: 0%;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        header {
+            background-color: white;
+            padding: .1px;
+        }
+
+        footer {
+            background-color: black;
+            color: grey;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .side {
+            background-color: white;
+            margin: 0rem 1rem 0rem 0rem;
+            padding: 1.5rem;
+            border-radius: 1rem;
+        }
+
+        form {
+            background-color: white;
+            border-radius: 1rem;
+            width: 80%;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        header > ul > li {
+            display: inline;
+            padding: .5rem;
+        }
+
+        .line {
+            border-bottom: 2px solid rgb(35, 12, 138);
+            padding: .1rem 0rem;
+        }
+
+        .fl {
+            float: right;
+        }
+
+        li > strong {
+            color: black;
+        }
+
+        .field {
+            margin: 1rem;
+        }
+
+
+        .yn {
+            margin: .5rem 0rem;
+        }
+
+        h3 {
+            margin: 0%;
+        }
+
+        button {
+            padding: .5rem 1rem;
+            border: 0;
+            border-radius: .4rem;
+            font-size: 1rem;
+        }
+
+            button[type="submit"] {
+                background-color: rgb(60, 26, 211);
+                color: white;
+            }
+
+            button[type="button"] {
+                background-color: rgb(192, 189, 189);
+                color: rgb(60, 26, 211);
+                margin: 0rem .5rem;
+            }
+
+        .pl {
+            color: rgb(60, 26, 211);
+        }
+
+        h1 {
+            border-bottom: 2px solid rgb(35, 12, 138);
+        }
+
+        li {
+            color: rgb(60, 26, 211);
+        }
+
+        .green {
+            color: lime;
+        }
+
+        input[id="un"] {
+            border: 1px solid lime;
+            border-radius: 5px;
+            padding: .5rem;
+            width: 100%;
+            margin: .5rem 0rem;
+        }
+
+        input[type="email"] {
+            border: 1px solid red;
+            border-radius: 5px;
+            padding: .5rem;
+            width: 100%;
+            margin: .5rem 0rem;
+        }
+
+        .field input:not([type="radio"]):not([type="checkbox"]):not([id="un"]):not([type="email"]),
+        textarea,
+        select {
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            padding: .5rem;
+            width: 100%;
+            margin: .5rem 0rem;
+        }
+
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <ul>
+            <li><strong>Sidney Walker Hoefnagel</strong></li>
+            <li>Home</li>
+            <li>Products</li>
+            <li>Services</li>
+            <li class="line">Contact Us</li>
+            <li class="fl">Sign in</li>
+            <li class="fl">Sign up</li>
+        </ul>
+    </header>
+
+    <div class="body">
+        <div class="side">
+            <div class="menu">
+                <h2>
+                    <strong>Main Menu</strong></h1>
+                    <ul>
+                        <li>Home</li>
+                        <li>Products</li>
+                        <li>Services</li>
+                        <li>About us</li>
+                    </ul>
+            </div>
+            <div class="feat">
+                <h2>
+                    <strong>Featured Projects</strong></h1>
+                    <ul>
+                        <li>Project A</li>
+                        <li>Project B</li>
+                        <li>Project C</li>
+                        <li>Project D</li>
+                        <li>Project F</li>
+                        <li>Project G</li>
+                    </ul>
+            </div>
+        </div>
+
+        <form method="post" action="">
+            <h1> Contact Us Form</h1>
+
+            <div class="field">
+                <label for="name"><strong>Name</strong></label>
+                <input type="text" name="name" id="name" placeholder="Type name here">
+            </div>
+
+            <div class="field">
+                <label for="un"><strong>Username</strong></label>
+                <input type="text" name="un" id="un" placeholder="Text input">
+                <span class="green">This username is available</span>
+            </div>
+
+            <div class="field">
+                <label><strong>Are you a member?</strong></label>
+                <div class="yn">
+                    <input type="radio" name="member" id="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="member" id="no">
+                    <label for="no">No</label>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" placeholder="Email input">
+                <span class="red">This email is invalid</span>
+            </div>
+
+            <div class="field">
+                <h3>
+                    <strong>Message</strong></h2>
+                    <!-- <label for="comment"><strong>Message</strong></label> -->
+                    <textarea name="comment" id="comment" cols="80" rows="20" placeholder="Textarea"></textarea>
+            </div>
+
+            <div class="field">
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree">I agree to the <span class="pl">terms and conditions</span></label>
+            </div>
+
+            <div class="field">
+                <button type="submit">Submit</button>
+                <button type="button">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+    <footer> &copy; - CS 2350 - All rights reserved</footer>
+
+
+</body>
+
+</html>
