@@ -63,6 +63,22 @@ h2{
   color: #2c3e50;
 }
 
+.logo-left, .logo-right {
+    float: left;
+    margin-top: 10px; /* Adjust as needed */
+}
+
+.logo-right {
+    float: right;
+}
+
+.subtext {
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
+
 p{
   margin-bottom: 2rem;
   line-height: 2;
