@@ -64,7 +64,9 @@ h2{
 
 .logo-left, .logo-right {
     float: left;
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 10px;
+    max-width: 150px;
+    height: auto;
 }
 
 .logo-right {
