@@ -77,6 +77,11 @@ h2{
   float: left;
 }
 
+.logo-right img {
+    max-width: 150px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
 .subtext {
     clear: both;
     text-align: center;
