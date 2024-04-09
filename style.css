@@ -68,7 +68,7 @@ h2{
 }
 
 .logo-left, .logo-right {
-    max-width: 115px;
+    max-width: 100px;
     height: auto;
 }
 
@@ -82,7 +82,7 @@ h2{
 
 .logo-left img,
 .logo-right img {
-    max-width: 100px; /* Adjust the maximum width as needed */
+    max-width: 125px; /* Adjust the maximum width as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
