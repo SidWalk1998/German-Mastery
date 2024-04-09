@@ -24,6 +24,7 @@ header{
   @include transition(all .5s ease);
   display: flex;
   align-items: center;
+  flex-direction: column;
 }  
 
   h1{
@@ -88,7 +89,7 @@ h2{
 .subtext {
     clear: both;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     color: rgb(73, 35, 101);
 }
 
