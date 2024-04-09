@@ -63,14 +63,16 @@ h2{
 }
 
 .logo-left, .logo-right {
-    float: left;
-    margin-top: 10px;
-    max-width: 150px;
+    max-width: 100px;
     height: auto;
 }
 
 .logo-right {
-    float: right;
+    margin-left: 10px;
+}
+
+.logo-left{
+  margin-right: 10px;
 }
 
 .subtext {
