@@ -22,7 +22,10 @@ header{
   z-index: 1000;
   overflow: hidden;
   @include transition(all .5s ease);
-  
+  display: flex;
+  align-items: center;
+}  
+
   h1{
     font-size: 42px;
     color: #fff;
@@ -69,16 +72,15 @@ h2{
 
 .logo-right {
     margin-left: 10px;
-  float: right;
 }
 
 .logo-left{
   margin-right: 10px;
-  float: left;
 }
 
+.logo-left img,
 .logo-right img {
-    max-width: 150px; /* Adjust the maximum width as needed */
+    max-width: 100px; /* Adjust the maximum width as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
