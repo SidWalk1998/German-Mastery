@@ -80,7 +80,11 @@ h2{
   margin-right: 10px;
 }
 
-.logo-left img,
+.logo-left img {
+    max-width: 110px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
 .logo-right img {
     max-width: 125px; /* Adjust the maximum width as needed */
     height: auto; /* Maintain aspect ratio */
