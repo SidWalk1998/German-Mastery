@@ -51,6 +51,8 @@ header {
 .logo-left img, .logo-right img {
   max-width: 100%; /* Ensure images scale to fit */
   height: auto; /* Maintain aspect ratio */
+  margin-top: 20px;
+  margin-bottom: -20px;
 }
 
 h1 {
