@@ -9,7 +9,7 @@ body {
   background-color: #ecf0f1;
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
-  padding-top: 100px; /* Space for fixed header */
+  padding-top: 120px; /* Space for fixed header */
   transition: padding-top .5s ease; 
 }
 
@@ -26,6 +26,7 @@ header {
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center items horizontally */
   padding: 20px 0; /* Padding for spacing */
+  height: auto; /* Allow height to adjust based on content */
 }
 
 .logo-container {
