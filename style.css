@@ -24,29 +24,30 @@ header {
   overflow: hidden;
   display: flex;
   flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
   padding: 20px 0; /* Padding for spacing */
 }
 
-header > div {
+.logo-container {
   display: flex; /* Flexbox for logo containers */
   align-items: center; /* Align logos vertically */
+  margin-bottom: 10px; /* Space below logos */
 }
 
 .logo-left {
   margin-right: 10px;
-  max-width: 80px; /* Set a maximum width for the left logo */
+  max-width: 80px; /* Max width for the left logo */
   height: auto; /* Maintain aspect ratio */
 }
 
 .logo-right {
   margin-left: 10px;
-  max-width: 120px; /* Set a maximum width for the right logo */
+  max-width: 120px; /* Max width for the right logo */
   height: auto; /* Maintain aspect ratio */
 }
 
 .logo-left img, .logo-right img {
-  max-width: 100%; /* Ensure the images scale to fit */
+  max-width: 100%; /* Ensure images scale to fit */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -55,8 +56,8 @@ h1 {
   color: #fff;
   text-transform: uppercase;
   font-weight: 100;
-  margin: 0; /* No margin to avoid pushing elements */
-  padding: 10px 0; /* Padding for space above/below */
+  margin: 10px 0; /* Adjust margins for spacing */
+  padding: 0; /* Reset padding */
 }
 
 h2 {
@@ -73,6 +74,7 @@ nav {
   justify-content: center; /* Center nav items */
   flex-wrap: wrap; /* Allow items to wrap if needed */
   margin-top: 20px; /* Add margin to create space above the nav */
+  padding: 10px 0; /* Optional padding for more space */
 }
 
 nav a {
@@ -128,4 +130,3 @@ body.sticky-header {
     }
   }
 }
-
