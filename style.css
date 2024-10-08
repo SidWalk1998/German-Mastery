@@ -29,8 +29,19 @@ header {
 
 .logo-left {
     margin-right: 10px;
-    max-width: 100px;
-    height: auto;
+    max-width: 100px; 
+    height: auto; 
+}
+
+.logo-right {
+    margin-left: 10px;
+    max-width: 100px; 
+    height: auto; 
+}
+
+.logo-right img {
+    max-width: 100%; 
+    height: auto; 
 }
 
 h1 {
@@ -40,12 +51,6 @@ h1 {
     font-weight: 100;
     margin: 20px; 
     padding: 20px 0; 
-}
-
-.logo-right {
-    margin-left: 10px;
-    max-width: 25px;
-    height: auto;
 }
 
 h2 {
