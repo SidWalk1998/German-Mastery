@@ -36,12 +36,7 @@ header {
 
 .logo-right {
     margin-left: 10px;
-    max-width: 100px; 
-    height: auto; 
-}
-
-.logo-right img {
-    max-width: 50%; 
+    max-width: 50px; 
     height: auto; 
 }
 
