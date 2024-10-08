@@ -9,7 +9,7 @@ body {
   background-color: #ecf0f1;
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
-  padding-top: 100px;
+  padding-top: 100px; /* Space for fixed header */
   transition: padding-top .5s ease; 
 }
 
@@ -23,21 +23,14 @@ header {
   z-index: 1000;
   overflow: hidden;
   display: flex;
-  flex-direction: column;
-  align-items: center; 
-  padding: 20px 0;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align all items */
+  padding: 20px 0; /* Add padding for spacing */
 }
 
-.logo-left {
-    margin-right: 10px;
-    max-width: 100px; 
-    height: auto;
-}
-
-.logo-right {
-    margin-left: 10px;
-    max-width: 50px; 
-    height: auto; 
+.logo-left, .logo-right {
+  max-width: 100px; /* Ensure logos maintain size */
+  height: auto;
 }
 
 h1 {
@@ -45,22 +38,22 @@ h1 {
   color: #fff;
   text-transform: uppercase;
   font-weight: 100;
-  margin: 20px 0; 
+  margin: 20px 0; /* Maintain vertical spacing */
 }
 
 h2 {
   text-align: center;
   font-size: 15px;
   color: rgb(73, 35, 101);
-  margin: 10px 0; 
+  margin: 10px 0; /* Adjust margin for space */
 }
 
 nav {
   width: 100%;
   background-color: rgb(73, 35, 101);
-  display: flex; 
-  justify-content: center; 
-  flex-wrap: wrap; 
+  display: flex; /* Align nav items horizontally */
+  justify-content: center; /* Center nav items */
+  flex-wrap: wrap; /* Allow items to wrap if needed */
 }
 
 nav a {
@@ -93,7 +86,7 @@ p {
 .wrapper {
   width: 800px;
   margin: 0 auto;
-  padding-top: 300px; 
+  padding-top: 300px; /* Adjust if necessary */
 }
 
 section {
@@ -116,4 +109,5 @@ body.sticky-header {
     }
   }
 }
+
 
