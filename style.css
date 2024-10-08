@@ -24,7 +24,7 @@ header {
     display: flex;
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally */
-    padding: 20px 0; /* Padding for spacing */
+    padding: 20px 0; 
 }
 
 header > div {
@@ -32,22 +32,21 @@ header > div {
     align-items: center; /* Align logos vertically */
 }
 
-.logo-left, .logo-right {
-    max-width: 100px; /* Set a maximum width for logos */
-    height: auto; /* Maintain aspect ratio */
-}
-
 .logo-left {
-    margin-right: 10px; /* Space between left logo and h1 */
+  margin-right: 10px;
+  max-width: 80px; /* Set a maximum width for the left logo */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .logo-right {
-    margin-left: 10px; /* Space between h1 and right logo */
+  margin-left: 10px;
+  max-width: 120px; /* Set a maximum width for the right logo */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .logo-left img, .logo-right img {
-    max-width: 100%; /* Ensure the images scale to fit */
-    height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the images scale to fit */
+  height: auto; /* Maintain aspect ratio */
 }
 
 h1 {
@@ -55,15 +54,15 @@ h1 {
     color: #fff;
     text-transform: uppercase;
     font-weight: 100;
-    margin: 0; /* No margin to avoid pushing elements */
-    padding: 0 20px; /* Horizontal padding */
+    margin: 0; 
+    padding: 0 20px; 
 }
 
 h2 {
     text-align: center;
     font-size: 15px;
     color: rgb(73, 35, 101);
-    margin: 10px 0; /* Adjust margin for space */
+    margin: 10px 0; 
 }
 
   
