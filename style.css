@@ -35,6 +35,12 @@ h1 {
     margin: 0 20px; /* Add horizontal margin */
     padding: 20px 0; /* Add vertical padding */
 }
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(73, 35, 101);
+}
   
   nav{
     position: absolute;
@@ -75,12 +81,6 @@ h3{
     margin-left: 10px;
     max-width: 50px;
     height: auto;
-}
-
-h2 {
-    text-align: center;
-    font-size: 15px;
-    color: rgb(73, 35, 101);
 }
 
 p{
