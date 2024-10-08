@@ -27,13 +27,25 @@ header {
     padding: 20px 0; /* Add padding to header for spacing */
 }
 
+.logo-left {
+    margin-right: 10px;
+    max-width: 100px;
+    height: auto;
+}
+
 h1 {
     font-size: 42px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 100;
-    margin: 0 20px; /* Add horizontal margin */
-    padding: 20px 0; /* Add vertical padding */
+    margin: 20px; 
+    padding: 20px 0; 
+}
+
+.logo-right {
+    margin-left: 10px;
+    max-width: 50px;
+    height: auto;
 }
 
 h2 {
@@ -71,17 +83,6 @@ h3{
   line-height: 2;
   color: #2c3e50;
 }
-.logo-left {
-    margin-right: 10px;
-    max-width: 100px;
-    height: auto;
-}
-
-.logo-right {
-    margin-left: 10px;
-    max-width: 50px;
-    height: auto;
-}
 
 p{
   margin-bottom: 2rem;
@@ -103,8 +104,6 @@ section{
   box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
 }
 
-/* Sticky Header Style */ 
-/* ---------------------------------------- */ 
 body.sticky-header{
   padding-top: 60px;
   
