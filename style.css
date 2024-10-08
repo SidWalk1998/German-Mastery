@@ -38,13 +38,13 @@ header {
 
 .logo-left {
   margin-right: 10px;
-  max-width: 80px; /* Max width for the left logo */
+  max-width: 100px; /* Max width for the left logo */
   height: auto; /* Maintain aspect ratio */
 }
 
 .logo-right {
   margin-left: 10px;
-  max-width: 120px; /* Max width for the right logo */
+  max-width: 140px; /* Max width for the right logo */
   height: auto; /* Maintain aspect ratio */
 }
 
