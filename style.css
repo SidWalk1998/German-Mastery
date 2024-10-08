@@ -1,7 +1,6 @@
 @import "compass/css3";
 @import "compass/reset";
-
-* {
+*{
   @include box-sizing(border-box);
 }
 
@@ -9,67 +8,75 @@ body {
   background-color: #ecf0f1;
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
-  padding-top: 100px; /* Space for fixed header */
+  padding-top: 100px; /* Adjusted padding */
   transition: padding-top .5s ease; 
 }
 
 header {
-  width: 100%;
-  background-color: rgb(163, 145, 177);
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center align all items */
-  padding: 20px 0; /* Add padding for spacing */
+    width: 100%;
+    background-color: rgb(163, 145, 177);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0; /* Add padding to header for spacing */
 }
 
-.logo-left, .logo-right {
-  max-width: 100px; /* Ensure logos maintain size */
-  height: auto;
+.logo-left {
+    margin-right: 10px;
+    max-width: 100px;
+    height: auto;
 }
 
 h1 {
-  font-size: 42px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 100;
-  margin: 20px 0; /* Maintain vertical spacing */
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 20px; 
+    padding: 20px 0; 
+}
+
+.logo-right {
+    margin-left: 10px;
+    max-width: 25px;
+    height: auto;
 }
 
 h2 {
-  text-align: center;
-  font-size: 15px;
-  color: rgb(73, 35, 101);
-  margin: 10px 0; /* Adjust margin for space */
+    text-align: center;
+    font-size: 15px;
+    color: rgb(73, 35, 101);
 }
-
-nav {
-  width: 100%;
-  background-color: rgb(73, 35, 101);
-  display: flex; /* Align nav items horizontally */
-  justify-content: center; /* Center nav items */
-  flex-wrap: wrap; /* Allow items to wrap if needed */
-}
-
-nav a {
-  color: #fff;
-  display: inline-block;
-  padding: 10px 15px;
-  line-height: 1;
-  text-decoration: none;
-  @include border-radius(2px);
   
-  &:hover {
-    @include box-shadow(0 0 0 1px #fff);
+  nav{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(73, 35, 101);
+    
+    a{
+      color: #fff;
+      display: inline-block;
+      padding: 10px 15px;
+      line-height: 1;
+      text-decoration: none;
+      @include border-radius(2px);
+      
+      &:hover{
+        @include box-shadow(0 0 0 1px #fff);
+      }
+    }
   }
 }
 
-h3 {
+h3{
   font-size: 34px;
   text-transform: uppercase;
   font-weight: 100;
@@ -77,19 +84,19 @@ h3 {
   color: #2c3e50;
 }
 
-p {
+p{
   margin-bottom: 2rem;
   line-height: 2;
   color: #7f8c8d;
 }
 
-.wrapper {
+.wrapper{
   width: 800px;
   margin: 0 auto;
-  padding-top: 300px; /* Adjust if necessary */
+  padding-top: 300px;
 }
 
-section {
+section{
   padding: 20px;
   margin-bottom: 40px;
   background-color: #fff;
@@ -97,17 +104,15 @@ section {
   box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
 }
 
-body.sticky-header {
+body.sticky-header{
   padding-top: 60px;
   
-  header {
+  header{
     height: 60px;
     background-color: rgba(52,152,219,.9);
     
-    h1 {
+    h1{
       @include scale(0);
     }
   }
 }
-
-
