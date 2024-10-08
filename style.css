@@ -31,6 +31,7 @@ header {
 .logo-container {
   display: flex; /* Flexbox for logo containers */
   align-items: center; /* Align logos vertically */
+  justify-content: center; /* Center horizontally */
   margin-bottom: 10px; /* Space below logos */
 }
 
@@ -56,7 +57,7 @@ h1 {
   color: #fff;
   text-transform: uppercase;
   font-weight: 100;
-  margin: 10px 0; /* Adjust margins for spacing */
+  margin: 0 20px; /* Adjust margins for spacing */
   padding: 0; /* Reset padding */
 }
 
