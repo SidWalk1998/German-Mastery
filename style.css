@@ -37,13 +37,13 @@ header {
 
 .logo-left {
   margin-right: 10px;
-  max-width: 90px; /* Max width for the left logo */
+  max-width: 80px; /* Max width for the left logo */
   height: auto; /* Maintain aspect ratio */
 }
 
 .logo-right {
   margin-left: 10px;
-  max-width: 130px; /* Max width for the right logo */
+  max-width: 120px; /* Max width for the right logo */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -74,7 +74,7 @@ nav {
   display: flex; /* Align nav items horizontally */
   justify-content: center; /* Center nav items */
   flex-wrap: wrap; /* Allow items to wrap if needed */
-  margin-top: 20px; /* Add margin to create space above the nav */
+  margin-top: 20px; /* Space above the nav */
   padding: 10px 0; /* Optional padding for more space */
 }
 
