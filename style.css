@@ -9,7 +9,7 @@ body {
   background-color: #ecf0f1;
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
-  padding-top: 120px; /* Space for fixed header */
+  padding-top: 120px;
   transition: padding-top .5s ease; 
 }
 
@@ -23,10 +23,10 @@ header {
   z-index: 1000;
   overflow: hidden;
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  padding: 20px 0; /* Padding for spacing */
-  height: auto; /* Allow height to adjust based on content */
+  flex-direction: column; 
+  align-items: center; 
+  padding: 20px 0; 
+  height: auto; 
 }
 
 nav {
@@ -49,27 +49,27 @@ nav a {
 }
 
 .logo-container {
-  display: flex; /* Flexbox for logo containers */
-  align-items: center; /* Align logos vertically */
-  justify-content: center; /* Center horizontally */
-  margin-bottom: 10px; /* Space below logos */
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .logo-left {
   margin-right: 10px;
-  max-width: 120px; /* Max width for the left logo */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 120px; 
+  height: auto;
 }
 
 .logo-right {
   margin-left: 10px;
-  max-width: 160px; /* Max width for the right logo */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 160px; 
+  height: auto; 
 }
 
 .logo-left img, .logo-right img {
-  max-width: 100%; /* Ensure images scale to fit */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; 
+  height: auto; 
   margin-top: 20px;
   margin-bottom: -20px;
 }
@@ -79,15 +79,15 @@ h1 {
   color: #fff;
   text-transform: uppercase;
   font-weight: 100;
-  margin: 0 20px; /* Adjust margins for spacing */
-  padding: 0; /* Reset padding */
+  margin: 0 20px;
+  padding: 0; 
 }
 
 h2 {
   text-align: center;
   font-size: 15px;
   color: rgb(73, 35, 101);
-  margin: 10px 0; /* Margin for spacing above/below */
+  margin: 10px 0;
 }
 
 h3 {
@@ -107,7 +107,7 @@ p {
 .wrapper {
   width: 800px;
   margin: 0 auto;
-  padding-top: 300px; /* Adjust if necessary */
+  padding-top: 300px;
 }
 
 section {
