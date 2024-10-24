@@ -39,6 +39,16 @@ nav {
   margin-bottom: -20px;
 }
 
+.aboutNav{
+  width: 100%;
+  background-color: rgb(73, 35, 101);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
 nav a {
   color: #fff;
   display: inline-block;
@@ -130,13 +140,7 @@ body.sticky-header {
     }
   }
 
-  /* About Page */
-  
-  .about{
-  text-align: center;
-  font-size: 15px;
-  color: rgb(73, 35, 101);
-  margin: 10px 0;
+  .under{
   }
   
 }
