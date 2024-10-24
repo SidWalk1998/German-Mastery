@@ -129,4 +129,14 @@ body.sticky-header {
       @include scale(0);
     }
   }
+
+  /* About Page */
+  
+  .about{
+  text-align: center;
+  font-size: 15px;
+  color: rgb(73, 35, 101);
+  margin: 10px 0;
+  }
+  
 }
