@@ -181,16 +181,16 @@ body.sticky-header {
     right: -120px;
 }
 
-.Walker {
+.side-ad .Walker {
     font-size: 0.9em;
-    color: #006666;
-    text-decoration: none;
+    color: #006666 !important; /* Dark greenish-blue for Walker Cinemas */
+    text-decoration: none !important; /* Remove underline */
 }
 
-.Mech {
+.side-ad .Mech {
     font-size: 0.9em;
-    color: #6aab47;
-    text-decoration: none; 
+    color: #6aab47 !important; /* Green for Mechanilink */
+    text-decoration: none !important; /* Remove underline */
 }
 
 .side-ad a {
