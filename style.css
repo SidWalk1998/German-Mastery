@@ -140,11 +140,12 @@ body.sticky-header {
     }
   }
 
-  .under{
+  h2.under {
   text-align: center;
   font-size: 15px;
   color: rgb(73, 35, 101);
-  margin-top: 100px;
-  }
+  margin-top: 30px; /* Increase this value as needed */
+  margin-bottom: 20px; /* Add space below if needed */
+}
   
 }
