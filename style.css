@@ -184,11 +184,23 @@ body.sticky-header {
 .Walker {
     font-size: 0.9em;
     color: #006666;
+    text-decoration: none;
 }
 
 .Mech {
     font-size: 0.9em;
     color: #6aab47;
+    text-decoration: none; 
 }
+
+.side-ad a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.side-ad a:hover p {
+    text-decoration: underline;
+}
+
   
 }
