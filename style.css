@@ -147,5 +147,43 @@ body.sticky-header {
   margin-top: 30px; /* Increase this value as needed */
   margin-bottom: 20px; /* Add space below if needed */
 }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Adds space between the ads and main content */
+}
+
+.side-ad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px; /* Adjust width as needed */
+}
+
+.side-ad img {
+    width: 80px; /* Set logo size */
+    margin-bottom: 5px; /* Space between logo and text */
+}
+
+.left-ad {
+    order: -1; /* Ensures it's on the left side */
+}
+
+.right-ad {
+    order: 1; /* Ensures it's on the right side */
+}
+
+.Walker {
+    font-size: 0.9em;
+    color: #006666;
+}
+
+.Mech {
+    font-size: 0.9em;
+    color: #6aab47;
+}
   
 }
