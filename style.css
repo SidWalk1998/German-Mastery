@@ -195,6 +195,7 @@ body.sticky-header {
   border: 5px solid;
   border-color: #006666;
   padding: 10px;
+  background-color: dark grey;
 }
 
 .right-ad {
@@ -203,6 +204,7 @@ body.sticky-header {
   border: 5px solid;
   border-color: #6aab47;
   padding: 10px;
+  background-color: dark grey;
 }
 
 .side-ad img {
