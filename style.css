@@ -179,13 +179,4 @@ body.sticky-header {
   text-decoration: none;
 }
   
-.side-ad a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.side-ad a:hover p {
-  text-decoration: underline;
-}
-  
 }
