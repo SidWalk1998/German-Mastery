@@ -207,19 +207,19 @@ body.sticky-header {
 
 .side-ad img {
   width: 100%;
-  max-width: 400px; 
+  max-width: 300px; 
   margin-bottom: 10px;
 }
 
 .left-ad p {
-  font-size: 0.9em;
+  font-size: 8px;
   color: #006666;
   text-decoration: none;
   text-align: center;
 }
 
 .right-ad p {
-  font-size: 0.9em;
+  font-size: 8px;
   color: #6aab47;
   text-decoration: none;
   text-align: center;
