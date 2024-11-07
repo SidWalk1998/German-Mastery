@@ -228,3 +228,14 @@ p {
   line-height: 2;
   color: #7f8c8d;
 }
+
+.logo-container p {
+  text-decoration: none; 
+  color: inherit;
+}
+
+.logo-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
