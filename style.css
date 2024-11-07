@@ -140,48 +140,48 @@ body.sticky-header {
   text-align: center;
   font-size: 15px;
   color: rgb(73, 35, 101);
-  margin-top: 30px; /* Increase this value as needed */
-  margin-bottom: 20px; /* Add space below if needed */
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 150px; /* Adds space above the main content */
-  margin: 0 auto;
+  padding-top: 150px; 
+  margin-top: 225px;
   max-width: 1200px;
   position: relative;
-  gap: 30px; /* Adds space between the left and right columns */
+  gap: 30px; 
 }
 
 .main-content {
   flex: 1;
   display: flex;
-  flex-direction: column; /* Stacking sections vertically */
+  flex-direction: column;
   justify-content: flex-start;
-  padding-top: 20px; /* Adds space between header and first section */
-  margin-right: 220px; /* Ensures space for the right logo */
+  padding-top: 20px; 
+  margin-right: 220px; 
 }
 
 .side-ad {
-  width: 250px; /* Increases the width of the logo column */
-  min-width: 250px; /* Prevents it from shrinking too much */
+  width: 250px;
+  min-width: 250px; 
   padding: 20px;
   box-sizing: border-box;
 }
 
 .left-ad {
-  margin-right: auto; /* Pushes left ad to the left */
+  margin-right: auto; 
 }
 
 .right-ad {
-  margin-left: auto; /* Pushes right ad to the right */
+  margin-left: auto; 
 }
 
 .side-ad img {
   width: 100%;
-  max-width: 250px; /* Makes sure the image is not too wide */
+  max-width: 250px; 
   margin-bottom: 10px;
 }
 
@@ -207,7 +207,7 @@ section {
 }
 
 #steezy, #real, #big {
-  width: 100%; /* Ensures sections take full width of container */
+  width: 100%; 
 }
 
 h3 {
