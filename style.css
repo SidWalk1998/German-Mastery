@@ -181,26 +181,16 @@ body.sticky-header {
     right: -120px;
 }
 
-.side-ad .Walker {
+.side-ad left-ad p  {
     font-size: 0.9em;
-    color: #006666 !important; /* Dark greenish-blue for Walker Cinemas */
-    text-decoration: none !important; /* Remove underline */
-}
-
-.side-ad .Mech {
-    font-size: 0.9em;
-    color: #6aab47 !important; /* Green for Mechanilink */
-    text-decoration: none !important; /* Remove underline */
-}
-
-.side-ad a {
-    color: inherit;
+    color: #006666;
     text-decoration: none;
 }
 
-.side-ad a:hover p {
-    text-decoration: underline;
+..side-ad right-ad {
+    font-size: 0.9em;
+    color: #6aab47;
+    text-decoration: none; 
 }
 
-  
 }
