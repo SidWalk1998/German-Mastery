@@ -149,7 +149,8 @@ body.sticky-header {
   justify-content: center;
   align-items: flex-start;
   padding-top: 150px; 
-  margin-top: 150px;  
+  margin-top: 150px;
+  margin: auto;
   max-width: 1200px; 
   position: relative;
   gap: 30px;  
