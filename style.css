@@ -9,9 +9,8 @@ body {
   background-color: #ecf0f1;
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
-  padding-top: 120px; /* This keeps content below the fixed header */
-  transition: padding-top .5s ease;
-  margin: 0; /* Remove default margin */
+  padding-top: 120px;
+  transition: padding-top .5s ease; 
 }
 
 header {
@@ -28,8 +27,8 @@ header {
   align-items: center; 
   padding: 20px 0; 
   height: auto; 
-  width: 100%;
 }
+
 
 nav {
   width: 100%;
@@ -41,7 +40,7 @@ nav {
   margin-bottom: -20px;
 }
 
-.aboutNav {
+.aboutNav{
   width: 100%;
   background-color: rgb(73, 35, 101);
   display: flex;
@@ -137,7 +136,7 @@ body.sticky-header {
   }
 }
 
-h2.under {
+  h2.under {
   text-align: center;
   font-size: 15px;
   color: rgb(73, 35, 101);
@@ -145,15 +144,14 @@ h2.under {
   margin-bottom: 20px; /* Add space below if needed */
 }
 
-.wrapper {
+wrapper {
   display: flex; 
   justify-content: space-between; 
   align-items: flex-start;
-  margin-top: 200px; /* Push the content below the fixed header */
+  padding-top: 150px;
   margin: 0 auto;
   max-width: 1200px;
-  width: 100%;
-  padding-top: 0; /* No extra padding here, controlled by margin-top */
+  padding-top: 200px;
 }
 
 .side-ad {
