@@ -149,13 +149,13 @@ body.sticky-header {
   justify-content: center;
   align-items: flex-start;
   padding-top: 150px; 
-  margin-top: 150px;
-  margin-left: 100px;
-  margin-right: 100px;
-  max-width: 1200px;
+  margin-top: 150px;  
+  max-width: 1200px; 
   position: relative;
   gap: 30px; 
+  margin: 0 auto;  
 }
+
 
 .main-content {
   flex: 1;
