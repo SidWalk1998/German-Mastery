@@ -146,16 +146,23 @@ body.sticky-header {
 
 .wrapper {
   display: flex;
-  justify-content: center; /* Center the main content */
+  justify-content: center; /* Center the content */
   align-items: flex-start;
-  padding-top: 150px; /* Ensure proper padding */
+  padding-top: 150px;
   margin: 0 auto;
   max-width: 1200px;
-  position: relative; /* To ensure child elements can be positioned */
+  position: relative;
+}
+
+.main-content {
+  flex: 1; /* Ensures the main content takes up the available space */
+  display: flex;
+  flex-direction: column; /* Stack the sections vertically */
+  justify-content: flex-start; /* Align content to the top */
 }
 
 .side-ad {
-  width: 200px; /* Adjust this width as needed */
+  width: 200px; /* Adjust the width of the side ads */
   padding: 20px;
   box-sizing: border-box;
 }
@@ -184,5 +191,32 @@ body.sticky-header {
   font-size: 0.9em;
   color: #6aab47; 
   text-decoration: none;
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+}
+
+#steezy, #real, #big {
+  width: 100%; /* Make each section take up the full width of the container */
+}
+
+h3 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 2;
+  color: #2c3e50;
+}
+
+p {
+  margin-bottom: 2rem;
+  line-height: 2;
+  color: #7f8c8d;
 }
 
