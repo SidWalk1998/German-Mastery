@@ -145,30 +145,27 @@ body.sticky-header {
 }
 
 .wrapper {
-  display: flex; 
-  justify-content: space-between; 
+  display: flex;
+  justify-content: center; /* Center the main content */
   align-items: flex-start;
-  padding-top: 150px;
+  padding-top: 150px; /* Ensure proper padding */
   margin: 0 auto;
   max-width: 1200px;
-  position: relative; /* Allow positioning inside the wrapper */
+  position: relative; /* To ensure child elements can be positioned */
 }
 
 .side-ad {
-  width: 48%;
+  width: 200px; /* Adjust this width as needed */
   padding: 20px;
   box-sizing: border-box;
-  position: absolute; /* Absolute positioning inside the wrapper */
 }
 
 .left-ad {
-  left: 0; /* Position to the left side */
-  top: 0; /* Align it to the top of the wrapper */
+  margin-right: auto; /* Push the left logo to the left */
 }
 
 .right-ad {
-  right: 0; /* Position to the right side */
-  top: 0; /* Align it to the top of the wrapper */
+  margin-left: auto; /* Push the right logo to the right */
 }
 
 .side-ad img {
@@ -188,3 +185,4 @@ body.sticky-header {
   color: #6aab47; 
   text-decoration: none;
 }
+
