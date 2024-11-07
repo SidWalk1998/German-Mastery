@@ -1,18 +1,20 @@
 @import "compass/css3";
 @import "compass/reset";
 
+/* General Reset */
 * {
-  @include box-sizing(border-box);
+  box-sizing: border-box;
 }
 
 body {
   background-color: #ecf0f1;
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
-  padding-top: 120px;
-  transition: padding-top .5s ease; 
+  margin: 0; /* Reset margin to avoid unwanted spacing */
+  padding-top: 120px; /* Ensure space below the header */
 }
 
+/* Header Styles */
 header {
   width: 100%;
   background-color: rgb(163, 145, 177);
@@ -21,14 +23,22 @@ header {
   top: 0;
   left: 0;
   z-index: 1000;
-  overflow: hidden;
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  padding: 20px 0; 
-  height: auto; 
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  height: auto;
+  width: 100%;
 }
 
+h1 {
+  font-size: 42px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin: 0 20px;
+  padding: 0;
+}
 
 nav {
   width: 100%;
@@ -37,16 +47,6 @@ nav {
   justify-content: center;
   padding: 10px 0;
   margin-top: 20px;
-  margin-bottom: -20px;
-}
-
-.aboutNav{
-  width: 100%;
-  background-color: rgb(73, 35, 101);
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-  margin-top: 40px;
   margin-bottom: -20px;
 }
 
@@ -59,142 +59,59 @@ nav a {
   border-radius: 2px;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.logo-left {
-  margin-right: 10px;
-  max-width: 120px; 
-  height: auto;
-}
-
-.logo-right {
-  margin-left: 10px;
-  max-width: 160px; 
-  height: auto; 
-}
-
-.logo-left img, .logo-right img {
-  max-width: 100%; 
-  height: auto; 
-  margin-top: 20px;
-  margin-bottom: -20px;
-}
-
-h1 {
-  font-size: 42px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 100;
-  margin: 0 20px;
-  padding: 0; 
-}
-
-h2 {
-  text-align: center;
-  font-size: 15px;
-  color: rgb(73, 35, 101);
-  margin: 10px 0;
-}
-
-h3 {
-  font-size: 34px;
-  text-transform: uppercase;
-  font-weight: 100;
-  line-height: 2;
-  color: #2c3e50;
-}
-
-p {
-  margin-bottom: 2rem;
-  line-height: 2;
-  color: #7f8c8d;
-}
-
-section {
-  padding: 20px;
-  margin-bottom: 40px;
-  background-color: #fff;
-  border-radius: 4px; 
-  box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
-}
-
-body.sticky-header {
-  padding-top: 60px;
-  
-  header {
-    height: 60px;
-    background-color: rgba(52, 152, 219, .9);
-    
-    h1 {
-      @include scale(0);
-    }
-  }
-}
-
-  h2.under {
-  text-align: center;
-  font-size: 15px;
-  color: rgb(73, 35, 101);
-  margin-top: 30px; /* Increase this value as needed */
-  margin-bottom: 20px; /* Add space below if needed */
-}
-
+/* Adjusting the Wrapper to Avoid Overlap */
 .wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 150px; /* Adds space above the main content */
+  padding-top: 200px; /* Adds space below the header */
   margin: 0 auto;
   max-width: 1200px;
+  gap: 30px; /* Space between the left and right columns */
   position: relative;
-  gap: 30px; /* Adds space between the left and right columns */
 }
 
+/* Main Content Section */
 .main-content {
   flex: 1;
   display: flex;
   flex-direction: column; /* Stacking sections vertically */
   justify-content: flex-start;
-  padding-top: 20px; /* Adds space between header and first section */
+  padding-top: 20px;
   margin-right: 220px; /* Ensures space for the right logo */
 }
 
+/* Side-Ads for Logos */
 .side-ad {
-  width: 250px; /* Increases the width of the logo column */
-  min-width: 250px; /* Prevents it from shrinking too much */
+  width: 250px; /* Increased width of the side ad container */
+  min-width: 250px; /* Prevents it from shrinking */
   padding: 20px;
   box-sizing: border-box;
 }
 
 .left-ad {
-  margin-right: auto; /* Pushes left ad to the left */
+  margin-right: auto;
 }
 
 .right-ad {
-  margin-left: auto; /* Pushes right ad to the right */
+  margin-left: auto;
 }
 
 .side-ad img {
   width: 100%;
-  max-width: 250px; /* Makes sure the image is not too wide */
+  max-width: 250px;
   margin-bottom: 10px;
 }
 
+/* Side ad text */
 .left-ad p {
   font-size: 0.9em;
   color: #006666;
-  text-decoration: none;
 }
 
 .right-ad p {
   font-size: 0.9em;
   color: #6aab47;
-  text-decoration: none;
 }
 
 /* Section Styles */
@@ -207,7 +124,7 @@ section {
 }
 
 #steezy, #real, #big {
-  width: 100%; /* Ensures sections take full width of container */
+  width: 100%;
 }
 
 h3 {
@@ -223,5 +140,3 @@ p {
   line-height: 2;
   color: #7f8c8d;
 }
-
-
