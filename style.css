@@ -155,7 +155,6 @@ body.sticky-header {
   gap: 30px;  
 }
 
-
 .main-content {
   flex: 2;
   display: flex;
@@ -172,6 +171,22 @@ body.sticky-header {
   width: 500px;
   padding: 20px;
   box-sizing: border-box;
+}
+
+.left-ad p {
+  font-size: 0.9em;
+  color: #006666;
+  text-decoration: none;
+}
+
+.left-ad a, .right-ad a {
+  text-decoration: none;
+}
+
+.right-ad p {
+  font-size: 0.9em;
+  color: #6aab47;
+  text-decoration: none;
 }
 
 .left-ad {
@@ -228,14 +243,3 @@ p {
   line-height: 2;
   color: #7f8c8d;
 }
-
-.logo-container p {
-  text-decoration: none; 
-  color: inherit;
-}
-
-.logo-container a {
-  text-decoration: none;
-  color: inherit;
-}
-
