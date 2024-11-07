@@ -162,8 +162,8 @@ body.sticky-header {
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 20px; 
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 100px;
+  margin-left: 90px;
   min-width: 0;
 }
 
