@@ -189,6 +189,23 @@ body.sticky-header {
   text-decoration: none;
 }
 
+.left-ad, .right-ad {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align content */
+  justify-content: flex-start; /* Keep items in the top of the container */
+  width: 100%; /* Make sure both sides take the same width */
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.left-ad p, .right-ad p {
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px; /* Bring text closer to image */
+}
+
 .left-ad {
   margin-right: auto;
   margin-left: 30px;
