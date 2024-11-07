@@ -149,7 +149,9 @@ body.sticky-header {
   justify-content: center;
   align-items: flex-start;
   padding-top: 150px; 
-  margin-top: 225px;
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
   max-width: 1200px;
   position: relative;
   gap: 30px; 
@@ -161,7 +163,8 @@ body.sticky-header {
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 20px; 
-  margin-right: 220px; 
+  margin-right: 150px;
+  margin-left: 150px;
 }
 
 .side-ad {
