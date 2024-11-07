@@ -147,14 +147,17 @@ body.sticky-header {
 wrapper {
   display: flex; 
   justify-content: space-between; 
-  align-items: flex-start; 
-  width: 100%;
-  padding-top: 150px; 
+  align-items: flex-start;
+  padding-top: 150px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 200px;
 }
 
 .side-ad {
   width: 48%;
-  padding: 10px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .side-ad img {
