@@ -114,12 +114,6 @@ p {
   color: #7f8c8d;
 }
 
-.wrapper {
-  width: 800px;
-  margin: 0 auto;
-  padding-top: 300px;
-}
-
 section {
   padding: 20px;
   margin-bottom: 40px;
@@ -148,34 +142,29 @@ body.sticky-header {
   margin-bottom: 20px; /* Add space below if needed */
 }
 
- .wrapper {
-  width: 800px;
-  margin: 0 auto;
-  padding-top: 300px;
+.wrapper {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  width: 100%;
+  padding-top: 150px; 
 }
 
 .side-ad {
-  position: absolute;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 100px;
-  padding-top: 20px;
+  width: 48%;
+  padding: 10px;
 }
 
 .side-ad img {
-  width: 80px;
-  margin-bottom: 5px;
+  width: 100%;
 }
 
 .left-ad {
-  left: -120px;
+  text-align: left;
 }
 
 .right-ad {
-  right: -120px;
+  text-align: right;
 }
 
 .left-ad p {
