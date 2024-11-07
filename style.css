@@ -144,50 +144,42 @@ body.sticky-header {
   margin-bottom: 20px; /* Add space below if needed */
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-between; /* Align left and right side ads */
-  margin: 0 auto;
-  max-width: 1200px; /* Limit max width of content */
-  padding-top: 200px; /* Adjust padding to account for fixed header */
+wrapper {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  width: 100%;
+  padding-top: 150px; 
 }
 
 .side-ad {
-  width: 48%; /* Side ads take up 48% of space */
-  padding: 20px;
-  box-sizing: border-box;
+  width: 48%;
+  padding: 10px;
 }
 
 .side-ad img {
   width: 100%;
-  max-width: 80px;
-  margin-bottom: 10px;
+}
+
+.left-ad {
+  text-align: left;
+}
+
+.right-ad {
+  text-align: right;
 }
 
 .left-ad p {
   font-size: 0.9em;
-  color: #006666;  /* Left logo color */
+  color: #006666;
   text-decoration: none;
 }
 
 .right-ad p {
   font-size: 0.9em;
-  color: #6aab47;  /* Right logo color */
+  color: #6aab47; 
   text-decoration: none;
 }
 
-section {
-  padding: 20px;
-  margin-bottom: 40px;
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
-}
-
-p {
-  margin-bottom: 2rem;
-  line-height: 2;
-  color: #7f8c8d;
-}
   
 
