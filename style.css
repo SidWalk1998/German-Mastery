@@ -209,12 +209,14 @@ body.sticky-header {
   font-size: 0.9em;
   color: #006666;
   text-decoration: none;
+  text-align: center;
 }
 
 .right-ad p {
   font-size: 0.9em;
   color: #6aab47;
   text-decoration: none;
+  text-align: center;
 }
 
 /* Section Styles */
