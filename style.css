@@ -149,48 +149,54 @@ body.sticky-header {
 }
 
  .wrapper {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 300px;
 }
 
 .side-ad {
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100px;
-    padding-top: 20px; 
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  padding-top: 20px;
 }
 
 .side-ad img {
-    width: 80px; 
-    margin-bottom: 5px;
+  width: 80px;
+  margin-bottom: 5px;
 }
 
 .left-ad {
-    left: -120px; 
+  left: -120px;
 }
 
 .right-ad {
-    right: -120px;
+  right: -120px;
 }
 
-.side-ad left-ad p  {
-    font-size: 0.9em;
-    color: #006666;
-    text-decoration: none;
+.left-ad p {
+  font-size: 0.9em;
+  color: #006666;
+  text-decoration: none;
 }
 
-..side-ad right-ad {
-    font-size: 0.9em;
-    color: #6aab47;
-    text-decoration: none; 
+.right-ad p {
+  font-size: 0.9em;
+  color: #6aab47; 
+  text-decoration: none;
+}
+  
+.side-ad a {
+  color: inherit;
+  text-decoration: none;
 }
 
+.side-ad a:hover p {
+  text-decoration: underline;
+}
+  
 }
