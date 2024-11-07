@@ -9,8 +9,8 @@ body {
   background-color: #ecf0f1;
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
-  padding-top: 120px;
-  transition: padding-top .5s ease; 
+  padding-top: 120px; /* Ensures the header doesn't overlap */
+  transition: padding-top .5s ease;
 }
 
 header {
@@ -27,8 +27,8 @@ header {
   align-items: center; 
   padding: 20px 0; 
   height: auto; 
+  width: 100%;
 }
-
 
 nav {
   width: 100%;
@@ -40,7 +40,7 @@ nav {
   margin-bottom: -20px;
 }
 
-.aboutNav{
+.aboutNav {
   width: 100%;
   background-color: rgb(73, 35, 101);
   display: flex;
@@ -136,7 +136,7 @@ body.sticky-header {
   }
 }
 
-  h2.under {
+h2.under {
   text-align: center;
   font-size: 15px;
   color: rgb(73, 35, 101);
@@ -144,14 +144,14 @@ body.sticky-header {
   margin-bottom: 20px; /* Add space below if needed */
 }
 
-wrapper {
+.wrapper {
   display: flex; 
   justify-content: space-between; 
   align-items: flex-start;
-  padding-top: 150px;
+  margin-top: 200px; /* Ensure space below fixed header */
   margin: 0 auto;
   max-width: 1200px;
-  padding-top: 200px;
+  padding-top: 0; /* Removed redundant padding */
 }
 
 .side-ad {
@@ -185,6 +185,3 @@ wrapper {
   color: #6aab47; 
   text-decoration: none;
 }
-
-  
-
