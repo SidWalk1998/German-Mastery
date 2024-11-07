@@ -144,7 +144,7 @@ body.sticky-header {
   margin-bottom: 20px; /* Add space below if needed */
 }
 
-wrapper {
+.wrapper {
   display: flex; 
   justify-content: space-between; 
   align-items: flex-start;
