@@ -9,8 +9,9 @@ body {
   background-color: #ecf0f1;
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
-  padding-top: 120px; /* Ensures the header doesn't overlap */
+  padding-top: 120px; /* This keeps content below the fixed header */
   transition: padding-top .5s ease;
+  margin: 0; /* Remove default margin */
 }
 
 header {
@@ -148,10 +149,11 @@ h2.under {
   display: flex; 
   justify-content: space-between; 
   align-items: flex-start;
-  margin-top: 200px; /* Ensure space below fixed header */
+  margin-top: 200px; /* Push the content below the fixed header */
   margin: 0 auto;
   max-width: 1200px;
-  padding-top: 0; /* Removed redundant padding */
+  width: 100%;
+  padding-top: 0; /* No extra padding here, controlled by margin-top */
 }
 
 .side-ad {
@@ -185,3 +187,4 @@ h2.under {
   color: #6aab47; 
   text-decoration: none;
 }
+
