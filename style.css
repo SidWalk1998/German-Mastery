@@ -147,12 +147,11 @@ body.sticky-header {
 .wrapper {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding-top: 150px; 
   margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
   gap: 30px;  
 }
 
