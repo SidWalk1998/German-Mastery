@@ -146,38 +146,42 @@ body.sticky-header {
 
 .wrapper {
   display: flex;
-  justify-content: center; /* Center the content */
+  justify-content: center;
   align-items: flex-start;
-  padding-top: 150px;
+  padding-top: 150px; /* Adds space above the main content */
   margin: 0 auto;
   max-width: 1200px;
   position: relative;
+  gap: 30px; /* Adds space between the left and right columns */
 }
 
 .main-content {
-  flex: 1; /* Ensures the main content takes up the available space */
+  flex: 1;
   display: flex;
-  flex-direction: column; /* Stack the sections vertically */
-  justify-content: flex-start; /* Align content to the top */
+  flex-direction: column; /* Stacking sections vertically */
+  justify-content: flex-start;
+  padding-top: 20px; /* Adds space between header and first section */
+  margin-right: 220px; /* Ensures space for the right logo */
 }
 
 .side-ad {
-  width: 200px; /* Adjust the width of the side ads */
+  width: 250px; /* Increases the width of the logo column */
+  min-width: 250px; /* Prevents it from shrinking too much */
   padding: 20px;
   box-sizing: border-box;
 }
 
 .left-ad {
-  margin-right: auto; /* Push the left logo to the left */
+  margin-right: auto; /* Pushes left ad to the left */
 }
 
 .right-ad {
-  margin-left: auto; /* Push the right logo to the right */
+  margin-left: auto; /* Pushes right ad to the right */
 }
 
 .side-ad img {
   width: 100%;
-  max-width: 200px;
+  max-width: 250px; /* Makes sure the image is not too wide */
   margin-bottom: 10px;
 }
 
@@ -189,7 +193,7 @@ body.sticky-header {
 
 .right-ad p {
   font-size: 0.9em;
-  color: #6aab47; 
+  color: #6aab47;
   text-decoration: none;
 }
 
@@ -203,7 +207,7 @@ section {
 }
 
 #steezy, #real, #big {
-  width: 100%; /* Make each section take up the full width of the container */
+  width: 100%; /* Ensures sections take full width of container */
 }
 
 h3 {
@@ -219,4 +223,5 @@ p {
   line-height: 2;
   color: #7f8c8d;
 }
+
 
