@@ -175,11 +175,13 @@ body.sticky-header {
 }
 
 .left-ad {
-  margin-right: auto; 
+  margin-right: auto;
+  margin-left: 30px;
 }
 
 .right-ad {
-  margin-left: auto; 
+  margin-left: auto;
+  margin-right: 30px;
 }
 
 .side-ad img {
