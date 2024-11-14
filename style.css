@@ -252,19 +252,23 @@ p {
   color: #7f8c8d;
 }
 
+/* How It Started Images */
 .image-container {
-  display: flex;              /* Display images in a row */
-  justify-content: center;    /* Center images horizontally */
-  gap: 20px;                  /* Space between the images */
-  margin-top: 20px;           /* Space above the images */
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adds space between images */
 }
 
-.image-container img {
-  width: 150px;               /* Adjust width to make images smaller */
-  height: auto;               /* Maintain aspect ratio */
-  border-radius: 8px;         /* Optional: add rounded corners */
+.story-image {
+  height: auto; /* Maintains aspect ratio based on width */
+  max-height: 200px; /* Adjust this to your desired height */
 }
 
+.first-image {
+  width: 150px; /* Adjust to desired width for first image */
+}
+
+/* The Tools Italics */
 #real ul li i {
   font-size: 14px;
 }
