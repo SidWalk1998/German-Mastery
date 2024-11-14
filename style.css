@@ -264,3 +264,8 @@ p {
   height: auto;               /* Maintain aspect ratio */
   border-radius: 8px;         /* Optional: add rounded corners */
 }
+
+#real ul li i {
+  font-size: 14px;
+}
+
