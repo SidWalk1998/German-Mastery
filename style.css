@@ -261,18 +261,18 @@ p {
 
 .story-image {
   height: auto; 
-  max-height: 200px;
+  max-height: 250px;
   border-radius: 10px;
 }
 
 .first-image {
   width: auto; 
-  margin-right: 25px;
+  margin-right: 40px;
 }
 
 .second-image {
   width: auto; 
-  margin-left: 25px;
+  margin-left: 40px;
 }
 
 /* The Tools Italics */
