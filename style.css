@@ -256,16 +256,23 @@ p {
 .image-container {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Adds space between images */
+  gap: 20px;
 }
 
 .story-image {
-  height: auto; /* Maintains aspect ratio based on width */
-  max-height: 200px; /* Adjust this to your desired height */
+  height: auto; 
+  max-height: 200px;
+  border-radius: 10px;
 }
 
 .first-image {
-  width: 150px; /* Adjust to desired width for first image */
+  width: auto; 
+  margin-right: 15px;
+}
+
+.second-image {
+  width: auto; 
+  margin-left: 15px;
 }
 
 /* The Tools Italics */
