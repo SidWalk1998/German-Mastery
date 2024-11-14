@@ -251,3 +251,16 @@ p {
   line-height: 2;
   color: #7f8c8d;
 }
+
+.image-container {
+  display: flex;              /* Display images in a row */
+  justify-content: center;    /* Center images horizontally */
+  gap: 20px;                  /* Space between the images */
+  margin-top: 20px;           /* Space above the images */
+}
+
+.image-container img {
+  width: 150px;               /* Adjust width to make images smaller */
+  height: auto;               /* Maintain aspect ratio */
+  border-radius: 8px;         /* Optional: add rounded corners */
+}
