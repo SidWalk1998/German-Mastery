@@ -328,3 +328,14 @@ iframe {
   transition: background-color 0.3s ease;
 }
 
+.second-nav-bar {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px; 
+  margin-right: 100px;
+  margin-left: 75px;
+  min-width: 0;
+}
+
