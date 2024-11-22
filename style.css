@@ -172,14 +172,7 @@ body.sticky-header {
 }
 
 .side-ad {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; /* Centers content vertically */
-  position: absolute; /* Allows precise positioning */
-  top: 50%; /* Centers the ad vertically */
-  transform: translateY(-50%); /* Adjusts for element height */
-  width: 20%; /* Adjust width as needed */
+  width: 20%; /* Adjust the size of the ads */
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
