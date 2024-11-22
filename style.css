@@ -281,3 +281,11 @@ p {
   font-size: 14px;
 }
 
+/* Youtube Videos */
+iframe {
+    display: block;
+    margin: 20px auto;     
+    max-width: 100%;      
+    height: auto;        
+}
+
