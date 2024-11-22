@@ -30,7 +30,7 @@ header {
 }
 
 
-nav {
+nav, .videobar {
   width: 100%;
   background-color: rgb(73, 35, 101);
   display: flex;
@@ -40,7 +40,7 @@ nav {
   margin-bottom: -20px;
 }
 
-.aboutNav{
+.aboutNav, .videobar{
   width: 100%;
   background-color: rgb(73, 35, 101);
   display: flex;
@@ -50,7 +50,7 @@ nav {
   margin-bottom: -20px;
 }
 
-nav a {
+nav a, .videobar {
   color: #fff;
   display: inline-block;
   padding: 10px 15px;
@@ -282,42 +282,6 @@ p {
 }
 
 /* Youtube Videos */
-/* Navbar styling */
-.videobar {
-  background-color: #333;
-  padding: 10px 0;
-  text-align: center;
-}
-
-.videobar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.videobar li {
-  display: inline-block;
-  margin: 0 15px;
-}
-
-.videobar a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 10px 15px;
-  display: inline-block;
-}
-
-.videobar a:hover {
-  background-color: #575757;
-  border-radius: 5px;
-}
-
-/* Smooth scroll */
-html {
-  scroll-behavior: smooth;
-}
-
 iframe {
     display: block;
     margin: 20px auto;
