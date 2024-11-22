@@ -31,7 +31,7 @@ header {
 
 .parent-container {
   display: flex;
-  flex-wrap: wrap; 
+  flex-direction: column;
 }
 
 nav{
@@ -160,7 +160,7 @@ body.sticky-header {
 }
 
 .main-content {
-  flex: 2;
+  flex: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -333,12 +333,10 @@ iframe {
   transition: background-color 0.3s ease;
 }
 
-.second-nav-bar {
-  order: -1; 
-  flex-basis: 100%;
-  display: flex;
-  justify-content: flex-start;
+.second-nav-bar { 
+ width: 100%; /* Full width of the page */
+  display: block; /* Ensure it behaves like a block element */
   padding-top: 20px;
-  margin: 0 75px;
+  margin: 0; /* Remove unnecessary margins */
   background-color: #f0f0f0;
 }
