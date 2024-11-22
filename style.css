@@ -5,6 +5,20 @@
   @include box-sizing(border-box);
 }
 
+html, body {
+  height: 100%; /* Ensures full height for the viewport */
+  margin: 0; /* Removes default margins */
+  display: flex; /* Makes the body a flex container */
+  flex-direction: column; /* Arranges content in a column layout */
+}
+
+body {
+  display: flex; /* Allows elements to be flex items */
+  justify-content: space-between; /* Distributes ads on opposite sides */
+  align-items: center; /* Centers them vertically */
+  min-height: 100vh; /* Ensures the flex container spans the entire viewport */
+}
+
 body {
   background-color: #ecf0f1;
   font-family: helvetica, arial, sans-serif;
