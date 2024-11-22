@@ -10,7 +10,12 @@ body {
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
   padding-top: 120px;
-  transition: padding-top .5s ease; 
+  transition: padding-top .5s ease;
+  height: 100%; /* Ensure both html and body take up the full height of the viewport */
+  margin: 0; /* Remove default margins */
+  display: flex; /* Make body a flex container */
+  justify-content: space-between; /* Place ads on opposite sides */
+  align-items: center;
 }
 
 header {
@@ -172,7 +177,7 @@ body.sticky-header {
 }
 
 .side-ad {
-  width: 20%; /* Adjust the size of the ads */
+  width: 20%;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
