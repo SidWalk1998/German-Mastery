@@ -396,12 +396,3 @@ iframe {
     color: #007acc;
     transition: color 0.3s ease;
 }
-
-/* Tips */
-.tips {
-  text-align: center;
-  font-size: 25px;
-  color: rgb(73, 35, 101);
-  margin: 10px 0;
-}
-
