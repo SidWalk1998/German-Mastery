@@ -58,7 +58,6 @@ header {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
 }
 
 nav{
@@ -187,7 +186,7 @@ body.sticky-header {
 }
 
 .main-content {
-  flex: none;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
