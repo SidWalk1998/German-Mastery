@@ -364,6 +364,13 @@ iframe {
   margin-bottom: 35px;
 }
 
+.second-nav-bar2 { 
+ width: 50%;
+  display: block; 
+  padding-top: 20px;
+  margin-bottom: 35px;
+}
+
 /* Culture Assignments */
 .external-links {
     text-align: left;
