@@ -56,7 +56,7 @@ header {
 
 .parent-container2 {
   display: flex;
-  flex-direction: left;
+  flex-direction: column;
   align-items: center;
 }
 
