@@ -186,7 +186,7 @@ body.sticky-header {
 }
 
 .main-content {
-  flex: 1;
+  flex: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
