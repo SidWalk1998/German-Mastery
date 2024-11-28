@@ -56,8 +56,8 @@ header {
 
 .parent-container2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 nav{
